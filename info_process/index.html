@@ -8,8 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=yes" />
     <meta name="theme-color" content="#457d58" />
+    <meta name="csrf-token" content="" />
     <!-- TITLE -->
-    <title>더힐실버타운 - 인사말</title>
+    <title>더힐실버타운 - 입주절차</title>
     <!-- CSS -->
     <link rel="stylesheet" href="/resources/c78a20ad6d85606f25c5c898a616fb19659e174a.rhymix.less.min.css?20230313101653" />
     <link rel="stylesheet" href="/resources/xeicon.min.css?20221221130956" />
@@ -25,7 +26,7 @@
     <link rel="stylesheet" href="/resources/addons.popup_opener.popup_opener.min.css?20230126170647" />
     <!-- JS -->
     <script src="/resources/af611c31dca6c8839c0f5eb9ba7787d88a1d7a92.js"></script>
-    
+    <!-- OTHER HEADERS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
@@ -47,7 +48,7 @@
     <style></style>
     <style>
       .sub_top_banner {
-        background-image: url('/images/banner.jpg');
+        background-image: url('/images/c05dee53f73dabc6f0691dbb794f6e04.jpg');
       }
     </style>
     <style type="text/css">
@@ -67,7 +68,7 @@
     <div class="skip">
       <a href="#content">메뉴 건너뛰기</a>
     </div>
-    <div class="bh intro_greeting">
+    <div class="bh info_process">
       <header class="header_wrap">
         <div class="header bh_wrap clearfix">
           <div class="bh_row ai-c jc-b">
@@ -78,12 +79,12 @@
             </h1>
             <nav class="main_menu menu_wrap col-auto" id="main_menu">
               <ul class="bh_wrap">
-                <li class="active menu_dropdown">
+                <li class=" menu_dropdown">
                   <a class="hover:bh_color_main active:bh_color_main after:bh_bg_color_main" href="/intro_greeting">
                     <span>소개</span>
                   </a>
                   <ul class="menu_dropdown-content">
-                    <li class="active">
+                    <li class="">
                       <a class="uphover:bh_bg_color_main" href="/intro_greeting">인사말</a>
                     </li>
                     <li class="">
@@ -126,12 +127,12 @@
                     </li>
                   </ul>
                 </li>
-                <li class=" menu_dropdown">
+                <li class="active menu_dropdown">
                   <a class="hover:bh_color_main active:bh_color_main after:bh_bg_color_main" href="/info_process">
                     <span>입주안내</span>
                   </a>
                   <ul class="menu_dropdown-content">
-                    <li class="">
+                    <li class="active">
                       <a class="uphover:bh_bg_color_main" href="/info_process">입주절차</a>
                     </li>
                     <li class="">
@@ -150,11 +151,11 @@
         <div class="bh mobile_header_top bh_bg_color_white">
           <h1 class="bh mobile_logo">
             <a href="/">
-                <img src="/images/40cdfaea4235b42d66973e14d8685782.png" alt="" class="m_logo_img dark:ds-n">
+              <img src="/images/40cdfaea4235b42d66973e14d8685782.png" alt="" class="m_logo_img dark:ds-n">
             </a>
           </h1>
           <a href="#" class="mobile_menu_btn mobile_menu mobile_menu_act bh_layer_toggle" data-target="bh_layer_m_menu">
-            <img src="/resources/menu_b.png" alt="메뉴보기" />
+            <img src="/layouts/thehillsilvertown/img/menu_b.png" alt="메뉴보기" />
           </a>
         </div>
         <div class="dimmed"></div>
@@ -172,10 +173,10 @@
           <div class="bh bh_layer_body pd-0">
             <nav class="bh mobile_main_menu">
               <ul>
-                <li class="active">
+                <li>
                   <a class="bh" href="/intro_greeting">소개</a>
                   <ul class="bh_toggle_content">
-                    <li class="active">
+                    <li>
                       <a href="/intro_greeting">- 인사말</a>
                     </li>
                     <li>
@@ -226,10 +227,10 @@
                     <i class="bh_toggle_up xi-angle-up"></i>
                   </div>
                 </li>
-                <li>
+                <li class="active">
                   <a class="bh" href="/info_process">입주안내</a>
                   <ul class="bh_toggle_content">
-                    <li>
+                    <li class="active">
                       <a href="/info_process">- 입주절차</a>
                     </li>
                     <li>
@@ -253,7 +254,7 @@
             <div class="sub_top_banner_content_wrap">
               <div class="bh bh_row ai-c h-100 mg-0">
                 <div class="bh col-12">
-                  <span class="bh_color_white ff_sif fw-b fs-36">인사말</span>
+                  <span class="bh_color_white ff_sif fw-b fs-36">입주절차</span>
                 </div>
               </div>
             </div>
@@ -268,9 +269,9 @@
                 </a>
               </li>
               <li id="middle_breadcrumb_menu_li6">
-                <a class="bh" href="/intro_greeting">소개</a>
+                <a class="bh" href="/info_process">입주안내</a>
                 <ul class="bh_toggle_content">
-                  <li class="active">
+                  <li>
                     <a class="hover:bh_color_main" href="/intro_greeting">소개</a>
                   </li>
                   <li>
@@ -279,7 +280,7 @@
                   <li>
                     <a class="hover:bh_color_main" href="/facility_room">시설소개</a>
                   </li>
-                  <li>
+                  <li class="active">
                     <a class="hover:bh_color_main" href="/info_process">입주안내</a>
                   </li>
                 </ul>
@@ -289,16 +290,13 @@
                 </div>
               </li>
               <li id="middle_breadcrumb_menu_li2">
-                <a class="bh" href="/intro_greeting">인사말</a>
+                <a class="bh" href="/info_process">입주절차</a>
                 <ul class="bh_toggle_content">
                   <li class="active">
-                    <a class="hover:bh_color_main" href="/intro_greeting">인사말</a>
+                    <a class="hover:bh_color_main" href="/info_process">입주절차</a>
                   </li>
                   <li>
-                    <a class="hover:bh_color_main" href="/intro_vision">비전 및 가치</a>
-                  </li>
-                  <li>
-                    <a class="hover:bh_color_main" href="/intro_location">찾아오시는 길</a>
+                    <a class="hover:bh_color_main" href="/info_cost">비용 및 서비스</a>
                   </li>
                 </ul>
                 <div class="bh_toggle">
@@ -317,32 +315,178 @@
                   <div style="*zoom:1;padding:0px 0px 0px 0px !important;">
                     <div class="bh bh_page_widget_wrap">
                       <div class="bh bh_page_widget_inner">
-                        <div class="greeting_wrap">
-                          <div class="greeting_stuff_img animate-in" data-anim-delay="0" data-anim-type="fade-in-right">
-                            <img src="/images/greeting_img_1.png" alt="">
+                        <div class="sub_title_wrap lg:mb-50 mb-30">
+                          <p class="sub_eng_title animate-in" data-anim-delay="0" data-anim-type="fade-in-left">Information on moving in</p>
+                          <p class="sub_title animate-in" data-anim-delay="200" data-anim-type="fade-in-left">입주절차</p>
+                          <p class="sub_title_txt animate-in" data-anim-delay="400" data-anim-type="fade-in-left"> 더힐 실버타운은 입주민분들께서 편안하고 안락하게 사실 수 있도록 <br class="ds-n lg:ds-b"> 숙식, 세탁 등 생활관리를 비롯하여 맞춤 건강관리를 지원하고 있습니다. </p>
+                          <p class="sub_title_txt mt-10 animate-in" data-anim-delay="400" data-anim-type="fade-in-left"> 전화상담(031-282-5601)을 통해 담당자와 빠른 상담 가능하십니다. </p>
+                        </div>
+                        <div class="process_info_wrap info_2 lg:mb-100 mb-50">
+                          <p class="sub_line_title ff_sif fs-24 animate-in" data-anim-delay="0" data-anim-type="fade-in-up">입주자격</p>
+                          <div class="process_info_con animate-in" data-anim-delay="200" data-anim-type="fade-in-up">
+                            <p class="fs-18">입주 예정일 기준 독립적인 일상생활이 가능한 60세 이상, 부부의 경우 한 분이 60세 이상이면 입주 가능</p>
                           </div>
-                          <div class="bh_wrap">
-                            <div class="sub_title_wrap mb-50">
-                              <p class="sub_eng_title animate-in" data-anim-delay="0" data-anim-type="fade-in-left">Greeting</p>
-                              <p class="sub_title animate-in" data-anim-delay="200" data-anim-type="fade-in-left">인사말</p>
+                        </div>
+                        <div class="process_info_wrap info_1 lg:mb-100 mb-50">
+                          <p class="sub_line_title ff_sif fs-24 animate-in" data-anim-delay="0" data-anim-type="fade-in-up">입주절차</p>
+                          <div class="process_con_wrap">
+                            <div class="process_con con_1 animate-in" data-anim-delay="0" data-anim-type="fade-in-right">
+                              <div class="process_icon">
+                                <img src="/images/process_icon_1.png" alt="">
+                              </div>
+                              <div class="process_txt_wrap">
+                                <p class="ff_sif fs-18 fw-b">01. 상담</p>
+                                <p class="fs-15">전화상담 및 사전방문 예약</p>
+                              </div>
                             </div>
-                            <div class="greeting_img_wrap">
-                              <p class="ff_sif bh_color_main fs-36 fw-b animate-in" data-anim-delay="400" data-anim-type="fade-in-left"> ​"나"를 재발견하고 가치있는 <br class="lg:ds-b ds-n"> 노후를 찾는 행복 파트너, 더힐 실버타운 </p>
-                              <img class=" animate-in" data-anim-delay="500" data-anim-type="fade-in-left" src="/images/greeting_img_2.png" alt="">
+                            <div class="process_con con_2 animate-in" data-anim-delay="200" data-anim-type="fade-in-right">
+                              <div class="process_icon">
+                                <img src="/images/process_icon_2.png" alt="">
+                              </div>
+                              <div class="process_txt_wrap">
+                                <p class="ff_sif fs-18 fw-b">02. 방문</p>
+                                <p class="fs-15">시설투어 (예약필수)</p>
+                              </div>
                             </div>
-                            <div class="greeting_txt mt-50 animate-in" data-anim-delay="0" data-anim-type="fade-in-up">
-                              <p class="fs-18"> 안녕하십니까? <br>
-                                <br> 더힐 실버타운은 요양원이 아닌 노인생활 시설로서, 자식을 키우고, 사회에 이바지하고, 각자의 위치에서 열심히 일하신, <br class="lg:ds-b ds-n">
-                                <b class="bh_color_main">우리의 부모님들을 위한 자연 친화적 도심형 실버타운</b>입니다. <br>
-                                <br> 깨끗하고 안락한 주거환경, 아름다운 꽃과 나무, 즐거운 프로그램과 운동시설을 통해 더 나은 건강과 심신 안정을 도모하고, <br class="lg:ds-b ds-n">
-                                <b class="bh_color_main">앞으로의 삶을 더욱 더 품격있고 즐겁게 계획</b>하셨으면 좋겠습니다. <br>
-                                <br> 저희 더힐 실버타운은 어르신들의 인간으로서의 존엄과 가치를 가지고 자유롭고 다양한 삶을 누리실 수 있도록 최선을 다하겠습니다.
-                              </p>
+                            <div class="process_con con_3 animate-in" data-anim-delay="400" data-anim-type="fade-in-right">
+                              <a href="#paper">
+                                <div class="process_icon">
+                                  <img src="/images/process_icon_3.png" alt="">
+                                </div>
+                                <div class="process_txt_wrap">
+                                  <p class="ff_sif fs-18 fw-b">03. 입주계약</p>
+                                  <p class="fs-15"> 계약서 작성 <br> 계약금 입금 (보증금 10%) </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="process_con con_6 ">
+                              <div class="process_icon">
+                                <img src="/images/process_icon_6.png" alt="">
+                              </div>
+                              <div class="process_txt_wrap">
+                                <p class="ff_sif fs-18 fw-b">06. 입주</p>
+                                <p class="fs-15">입주 (잔금 납부)</p>
+                              </div>
+                            </div>
+                            <div class="process_con con_5 xl:ds-b ds-n animate-in" data-anim-delay="200" data-anim-type="fade-in-left">
+                              <div class="process_icon">
+                                <img src="/images/process_icon_5.png" alt="">
+                              </div>
+                              <div class="process_txt_wrap">
+                                <p class="ff_sif fs-18 fw-b">05. 입주생활</p>
+                                <p class="fs-15">계약기간 2년</p>
+                              </div>
+                            </div>
+                            <div class="process_con con_4 xl:ds-b ds-n animate-in" data-anim-delay="0" data-anim-type="fade-in-left">
+                              <div class="process_icon">
+                                <img src="/images/process_icon_4.png" alt="">
+                              </div>
+                              <div class="process_txt_wrap">
+                                <p class="ff_sif fs-18 fw-b">04. 입주</p>
+                                <p class="fs-15">입주 (잔금 납부)</p>
+                              </div>
+                            </div>
+                            <div class="process_con con_4 xl:ds-n ds-b animate-in" data-anim-delay="0" data-anim-type="fade-in-right">
+                              <div class="process_icon">
+                                <img src="/images/process_icon_4.png" alt="">
+                              </div>
+                              <div class="process_txt_wrap">
+                                <p class="ff_sif fs-18 fw-b">04. 입주</p>
+                                <p class="fs-15">입주 (잔금 납부)</p>
+                              </div>
+                            </div>
+                            <div class="process_con con_5 xl:ds-n ds-b animate-in" data-anim-delay="200" data-anim-type="fade-in-right">
+                              <div class="process_icon">
+                                <img src="/images/process_icon_5.png" alt="">
+                              </div>
+                              <div class="process_txt_wrap">
+                                <p class="ff_sif fs-18 fw-b">05. 입주생활</p>
+                                <p class="fs-15">계약기간 2년</p>
+                              </div>
+                            </div>
+                            <div class="process_con con_6 xl:ds-n ds-b animate-in" data-anim-delay="400" data-anim-type="fade-in-right">
+                              <div class="process_icon">
+                                <img src="/images/process_icon_6.png" alt="">
+                              </div>
+                              <div class="process_txt_wrap">
+                                <p class="ff_sif fs-18 fw-b">06. 입주</p>
+                                <p class="fs-15">입주 (잔금 납부)</p>
+                              </div>
                             </div>
                           </div>
-                          <div class="greeting_bottom_img mt-50">
-                            <img src="/images/greeting_img_3.png" alt="">
+                        </div>
+                        <div class="process_info_wrap info_3">
+                          <div class="bh_row">
+                            <div class="lg:col-4 col-12 lg:mb-0 mb-20 animate-in" data-anim-delay="0" data-anim-type="fade-in-up">
+                              <a href="tel:031-282-5601" class="btn_inquiry_wrap ta-c">
+                                <div class="btn_inquiry_con">
+                                  <p>
+                                    <i class="ri-phone-line mb-15"></i>
+                                  </p>
+                                  <p class="fs-18 mb-20">전화문의</p>
+                                  <p class="ff_sif fs-24 fw-b">031-282-5601</p>
+                                </div>
+                                <div class="con_logo_wrap">
+                                  <img src="/images/sub_logo.png" alt="">
+                                </div>
+                              </a>
+                            </div>
+                            <div class="lg:col-4 col-12 lg:mb-0 mb-20 animate-in" data-anim-delay="200" data-anim-type="fade-in-up">
+                              <a href="mailto:blabla@naver.com" class="btn_inquiry_wrap ta-c">
+                                <div class="btn_inquiry_con">
+                                  <p>
+                                    <i class="ri-mail-line"></i>
+                                  </p>
+                                  <p class="fs-18 mb-20">메일문의</p>
+                                  <p class="ff_sif fs-20 fw-b">blabla@naver.com</p>
+                                </div>
+                                <div class="con_logo_wrap">
+                                  <img src="/images/sub_logo.png" alt="">
+                                </div>
+                              </a>
+                            </div>
+                            <div class="lg:col-4 col-12 animate-in" data-anim-delay="400" data-anim-type="fade-in-up">
+                              <a href="/info_paper" class="btn_inquiry_wrap ta-c">
+                                <div class="btn_inquiry_con">
+                                  <p>
+                                    <i class="ri-chat-smile-2-line"></i>
+                                  </p>
+                                  <p class="fs-18 mb-20">온라인 문의</p>
+                                  <p class="ff_sif fs-20 fw-b">온라인 문의 바로가기 →</p>
+                                </div>
+                                <div class="con_logo_wrap">
+                                  <img src="/images/sub_logo.png" alt="">
+                                </div>
+                              </a>
+                            </div>
                           </div>
+                        </div>
+                        <div class="sub_title_wrap lg:mb-50 mb-30 lg:mt-100 mt-50" id="paper">
+                          <p class="sub_eng_title animate-in" data-anim-delay="0" data-anim-type="fade-in-left">Information on moving in</p>
+                          <p class="sub_title animate-in" data-anim-delay="200" data-anim-type="fade-in-left">계약 시 구비서류</p>
+                        </div>
+                        <table class="info_cost_table table_4 animate-in" data-anim-delay="0" data-anim-type="fade-in-up">
+                          <tbody>
+                            <tr>
+                              <td>입주자 신분증 (주민등록증, 운전면허증 중 택1)</td>
+                            </tr>
+                            <tr>
+                              <td>입주자 신원인수인 신분증</td>
+                            </tr>
+                            <tr>
+                              <td>주민등록등본</td>
+                            </tr>
+                            <tr>
+                              <td>건강진단서 (결핵확인)</td>
+                            </tr>
+                            <tr>
+                              <td>의사진단서 또는 약처방전</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div class="mt-20 animate-in" data-anim-delay="200" data-anim-type="fade-in-up">
+                          <p class="fs-14">※ 외국인의 경우, 여권 사본 또는 외국인등록증 사본 1부</p>
+                          <p class="fs-14">※ 위 서류는 입주 계약을 위한 신원 확인용으로 사용됩니다.</p>
                         </div>
                       </div>
                     </div>
