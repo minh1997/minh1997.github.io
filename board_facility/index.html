@@ -13,7 +13,7 @@
     <meta name="theme-color" content="#457d58" />
     <meta name="csrf-token" content="" />
     <!-- TITLE -->
-    <title>더힐실버타운 - 시설사진</title>
+    <title>코리안 노블레스 실버타운 - 시설사진</title>
     <!-- CSS -->
     <link
       rel="stylesheet"
@@ -131,9 +131,10 @@
             <h1 class="logo col-auto">
               <a href="/">
                 <img
-                  src="/images/ac1adc1e55e6ec4831f0a263c6b74f40.png"
+                  src="../assets/logo.png"
                   alt=""
                   class="logo_img dark:ds-n"
+                  style="height: 40px"
                 />
               </a>
             </h1>
@@ -346,6 +347,17 @@
         <div class="bh bh_layer_dimmed"></div>
       </div>
       <div class="body">
+        <div>
+          <div class="sub_top_banner clearfix">
+            <div class="sub_top_banner_content_wrap">
+              <div class="bh bh_row ai-c h-100 mg-0">
+                <div class="bh col-12">
+                  <span class="bh_color_white ff_sif fw-b fs-36">주거공간</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- <div>
           <div class="sub_top_banner clearfix">
             <div class="sub_top_banner_content_wrap">
@@ -425,259 +437,161 @@
           <div class="bh_wrap clearfix">
             <div class="content clearfix" id="content">
               <div class="content_inner clearfix">
-                <script>
-                  xe.lang.confirm_delete = "삭제하시겠습니까?";
-                </script>
-                <div class="bh board">
-                  <div class="bh board_header"></div>
-                  <div class="bh list_header">
-                    <div class="list_header_html">
-                      <div class="sub_title_wrap lg:mb-50 mb-30">
-                        <!-- <p
-                          class="sub_eng_title"
-                          data-anim-delay="0"
-                          data-anim-type="fade-in-left"
-                        >
-                          Facility
-                        </p> -->
-                        <p
-                          class="sub_title"
-                          data-anim-delay="200"
-                          data-anim-type="fade-in-left"
-                        >
-                          시설 사진
-                        </p>
-                      </div>
-                    </div>
-                    <div class="bh category"></div>
-                  </div>
-                  <div class="bh board_list" id="board_list">
-                    <div class="bh gallery_wrap bh_row gutters-5 lg:gutters-15">
-                      <!-- 1번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a1.png"
-                              alt="a1"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
+                <div
+                  class="xe-widget-wrapper"
+                  style="float: left; width: 100%; margin: none; padding: none"
+                >
+                  <div style="*zoom: 1; padding: 0px 0px 0px 0px !important">
+                    <div class="bh bh_page_widget_wrap">
+                      <div class="bh bh_page_widget_inner">
+                        <div class="sub_title_wrap lg:mb-50 mb-30">
+                          <!-- <p
+                            class="sub_eng_title animate-in"
+                            data-anim-delay="0"
+                            data-anim-type="fade-in-left"
+                          >
+                            Facility
+                          </p> -->
+                          <!-- <p
+                            class="sub_title animate-in"
+                            data-anim-delay="200"
+                            data-anim-type="fade-in-left"
+                          >
+                            주거공간
+                          </p> -->
+                          <!-- <p
+                            class="sub_title_txt animate-in"
+                            data-anim-delay="400"
+                            data-anim-type="fade-in-left"
+                          >
+                            생활 하루하루가 감동이 될 수 있도록, 세심한 배려와
+                            곳곳에 숨겨진 <br />
+                            디자인 철학을 느끼실 수 있도록 설계되어 있습니다.
+                          </p> -->
                         </div>
-                      </div>
-                      <!-- 2번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a2.png"
-                              alt="a2"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 3번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a3.jpeg"
-                              alt="a3"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
+                        <div class="bh board_list" id="board_list">
+                          <div
+                            class="bh gallery_wrap bh_row"
+                            style="
+                              display: flex;
+                              flex-wrap: wrap;
+                              gap: 20px;
+                              justify-content: center;
+                            "
+                          >
+                            <!-- 1번 -->
+                            <div style="flex: 0 0 calc(25% - 20px)">
+                              <img
+                                src="../assets/a1.png"
+                                alt="a1"
+                                style="
+                                  width: 100%;
+                                  height: 250px;
+                                  object-fit: cover;
+                                  border-radius: 8px;
+                                "
+                              />
+                            </div>
+                            <!-- 1번 -->
+                            <div style="flex: 0 0 calc(25% - 20px)">
+                              <img
+                                src="../assets/a2.png"
+                                alt="a1"
+                                style="
+                                  width: 100%;
+                                  height: 250px;
+                                  object-fit: cover;
+                                  border-radius: 8px;
+                                "
+                              />
+                            </div>
 
-                      <!-- 5번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a5.png"
-                              alt="a5"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
+                            <!-- 1번 -->
+                            <div style="flex: 0 0 calc(25% - 20px)">
+                              <img
+                                src="../assets/a16.png"
+                                alt="a1"
+                                style="
+                                  width: 100%;
+                                  height: 250px;
+                                  object-fit: cover;
+                                  border-radius: 8px;
+                                "
+                              />
+                            </div>
+                            <!-- 1번 -->
+                            <div style="flex: 0 0 calc(25% - 20px)">
+                              <img
+                                src="../assets/a17.png"
+                                alt="a1"
+                                style="
+                                  width: 100%;
+                                  height: 250px;
+                                  object-fit: cover;
+                                  border-radius: 8px;
+                                "
+                              />
+                            </div>
+                            <!-- 1번 -->
+                            <div style="flex: 0 0 calc(25% - 20px)">
+                              <img
+                                src="../assets/a18.png"
+                                alt="a1"
+                                style="
+                                  width: 100%;
+                                  height: 250px;
+                                  object-fit: cover;
+                                  border-radius: 8px;
+                                "
+                              />
+                            </div>
+                            <!-- 1번 -->
+                            <div style="flex: 0 0 calc(25% - 20px)">
+                              <img
+                                src="../assets/a19.png"
+                                alt="a1"
+                                style="
+                                  width: 100%;
+                                  height: 250px;
+                                  object-fit: cover;
+                                  border-radius: 8px;
+                                "
+                              />
+                            </div>
                           </div>
                         </div>
-                      </div>
 
-                      <!-- 16번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a16.png"
-                              alt="a16"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 17번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a17.png"
-                              alt="a17"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 18번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a18.png"
-                              alt="a18"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 19번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a19.png"
-                              alt="a19"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 20번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a20.png"
-                              alt="a20"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 21번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a21.png"
-                              alt="a21"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 22번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a22.png"
-                              alt="a22"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 23번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a23.png"
-                              alt="a23"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 24번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a24.png"
-                              alt="a24"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 25번 -->
-                      <div class="bh bh_item item col-md-3 col-6">
-                        <div class="bh bh_item_inner">
-                          <div class="bh_img_content clearfix">
-                            <img
-                              src="../assets/a25.png"
-                              alt="a25"
-                              style="
-                                width: 100%;
-                                height: 250px;
-                                object-fit: cover;
-                              "
-                            />
-                          </div>
-                        </div>
+                        <!-- 
+        <script>
+        jQuery(function($){
+        $(document).ready(function(){
+        new Swiper('.swiper_room', {
+        slidesPerView: 1,
+        navigation: {
+          enabled: true,
+          nextEl: ".room_slide_next",
+          prevEl: ".room_slide_prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          bulletActiveClass: "swiper-pagination-bullet-active bh_bg_color_main",
+          progressbarFillClass: "swiper-pagination-progressbar-fill bh_bg_color_main",
+        },
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true
+        },
+        autoplay: {
+          delay: 3000,
+        },
+        speed: 500,
+        loop: true,
+        spaceBetween: 30,
+        });
+        });
+        });
+        </script> -->
                       </div>
                     </div>
                   </div>
@@ -693,8 +607,9 @@
             <div class="bh_row ai-c">
               <div class="footer_logo ds-n lg:ds-b">
                 <img
-                  src="./images/c7c7f9b80a34a65d875b393919c2d2eb.png"
+                  src="../assets/logo.png"
                   alt="footer_logo"
+                  style="height: 30px"
                 />
               </div>
               <div class="copyright col">
