@@ -13,7 +13,7 @@
     <meta name="theme-color" content="#457d58" />
     <meta name="csrf-token" content="" />
     <!-- TITLE -->
-    <title>더힐실버타운</title>
+    <title>코리안 노블레스 실버타운</title>
     <!-- CSS -->
     <link
       rel="stylesheet"
@@ -144,6 +144,11 @@
 
       @media (max-width: 992px) {
       }
+      @media (max-width: 768px) {
+        #pc-banner {
+          display: none;
+        }
+      }
     </style>
     <style type="text/css">
       #content .content_inner > .btnArea {
@@ -185,7 +190,7 @@
             <h1 class="logo col-auto">
               <a href="/">
                 <img
-                  src="./images/ac1adc1e55e6ec4831f0a263c6b74f40.png"
+                  src="./assets/test.png"
                   alt=""
                   class="logo_img dark:ds-n"
                 />
@@ -198,7 +203,7 @@
                     class="hover:bh_color_main active:bh_color_main after:bh_bg_color_main"
                     href="intro_greeting"
                   >
-                    <span>소개 test</span>
+                    <span>소개</span>
                   </a>
                   <ul class="menu_dropdown-content">
                     <li class="">
@@ -211,11 +216,11 @@
                         >비전 및 가치</a
                       >
                     </li>
-                    <li class="">
+                    <!-- <li class="">
                       <a class="uphover:bh_bg_color_main" href="intro_location"
                         >찾아오시는 길</a
                       >
-                    </li>
+                    </li> -->
                   </ul>
                 </li>
                 <li class="menu_dropdown">
@@ -230,7 +235,8 @@
                       <a
                         class="uphover:bh_bg_color_main"
                         href="/service_medical"
-                        >메디컬 서비스</a
+                      >
+                        프로그램 소개</a
                       >
                     </li>
                     <li class="">
@@ -242,7 +248,7 @@
                       <a
                         class="uphover:bh_bg_color_main"
                         href="/service_wellness"
-                        >웰니스 서비스</a
+                        >위치 소개</a
                       >
                     </li>
                   </ul>
@@ -260,13 +266,13 @@
                         >주거공간</a
                       >
                     </li>
-                    <li class="">
+                    <!-- <li class="">
                       <a
                         class="uphover:bh_bg_color_main"
                         href="/facility_additional"
                         >부대시설</a
                       >
-                    </li>
+                    </li> -->
                     <li class="">
                       <a class="uphover:bh_bg_color_main" href="/board_facility"
                         >시설사진</a
@@ -281,24 +287,12 @@
                   >
                     <span>입주안내</span>
                   </a>
-                  <ul class="menu_dropdown-content">
-                    <li class="">
-                      <a class="uphover:bh_bg_color_main" href="info_process"
-                        >입주절차</a
-                      >
-                    </li>
-                    <li class="">
-                      <a class="uphover:bh_bg_color_main" href="info_cost"
-                        >비용 및 서비스</a
-                      >
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </nav>
-            <p class="mini_banner col-auto ff_sif">
+            <!-- <p class="mini_banner col-auto ff_sif">
               입주상담 <b>031-282-5601</b>
-            </p>
+            </p> -->
           </div>
         </div>
       </header>
@@ -358,13 +352,13 @@
                   <a class="bh" href="/service_medical">서비스</a>
                   <ul class="bh_toggle_content">
                     <li>
-                      <a href="/service_medical">- 메디컬 서비스</a>
+                      <a href="/service_medical">- 다양한 프로그램</a>
                     </li>
                     <li>
-                      <a href="/service_hotel">- 호텔식 서비스</a>
+                      <a href="/service_hotel">- 시설 소개</a>
                     </li>
                     <li>
-                      <a href="/service_wellness">- 웰니스 서비스</a>
+                      <a href="/service_wellness">- 위치 소개</a>
                     </li>
                   </ul>
                   <div class="bh_toggle">
@@ -378,9 +372,9 @@
                     <li>
                       <a href="/facility_room">- 주거공간</a>
                     </li>
-                    <li>
+                    <!-- <li>
                       <a href="/facility_additional">- 부대시설</a>
-                    </li>
+                    </li> -->
                     <li>
                       <a href="/board_facility">- 시설사진</a>
                     </li>
@@ -393,12 +387,12 @@
                 <li>
                   <a class="bh" href="info_process">입주안내</a>
                   <ul class="bh_toggle_content">
-                    <li>
+                    <!-- <li>
                       <a href="info_process">- 입주절차</a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <a href="info_cost">- 비용 및 서비스</a>
-                    </li>
+                    </li> -->
                   </ul>
                   <div class="bh_toggle">
                     <i class="bh_toggle_down xi-angle-down"></i>
@@ -418,76 +412,93 @@
               <div class="swiper-wrapper">
                 <div
                   class="swiper-slide item item1"
-                  style="
-                    background-image: url('./images/d830daa90b63b18debbf1cf963e12242.png');
-                  "
+                  style="background-image: url('./assets/a100.png')"
                 >
                   <div class="slider_content_wrap">
                     <div class="bh_wrap slider_content">
                       <div class="bh bh_row lg:ai-s ai-c h-100">
                         <div class="bh col-12">
                           <span class="slider_content_text_1">
-                            <div class="s_text">
+                            <div class="s_text" style="color: white">
                               <p class="line1 lg:fs-64 fs-38 ff_sif ds-f">
                                 <span
                                   class="animate-in"
                                   data-anim-delay="0"
                                   data-anim-type="fade-in"
-                                  >도</span
+                                  >필</span
                                 >
                                 <span
                                   class="animate-in"
                                   data-anim-delay="300"
                                   data-anim-type="fade-in"
-                                  >심</span
+                                  >리</span
                                 >
                                 <span
                                   class="animate-in"
                                   data-anim-delay="600"
                                   data-anim-type="fade-in"
-                                  >에</span
+                                  >핀</span
                                 >
                                 <span
                                   class="animate-in"
                                   data-anim-delay="900"
                                   data-anim-type="fade-in"
+                                  >에</span
+                                >
+                                <span
+                                  class="animate-in"
+                                  data-anim-delay="1200"
+                                  data-anim-type="fade-in"
                                   >서</span
                                 >
                               </p>
-                              <p class="line2 lg:fs-64 fs-38 ff_sif ds-f">
+                              <p class="line1 lg:fs-64 fs-38 ff_sif ds-f">
                                 <span
                                   class="animate-in"
                                   data-anim-delay="1500"
                                   data-anim-type="fade-in"
-                                  >‘숲’</span
+                                  >따</span
                                 >
                                 <span
                                   class="animate-in"
                                   data-anim-delay="1800"
                                   data-anim-type="fade-in"
-                                  >을
-                                </span>
+                                  >스</span
+                                >
                                 <span
                                   class="animate-in"
                                   data-anim-delay="2100"
                                   data-anim-type="fade-in"
-                                  >만</span
+                                  >함</span
                                 >
                                 <span
                                   class="animate-in"
                                   data-anim-delay="2400"
                                   data-anim-type="fade-in"
-                                  >나</span
+                                  >을</span
                                 >
                                 <span
                                   class="animate-in"
                                   data-anim-delay="2700"
+                                  data-anim-type="fade-in"
+                                  >만</span
+                                >
+                                <span
+                                  class="animate-in"
+                                  data-anim-delay="3000"
+                                  data-anim-type="fade-in"
+                                  >나</span
+                                >
+                                <span
+                                  class="animate-in"
+                                  data-anim-delay="3300"
                                   data-anim-type="fade-in"
                                   >다</span
                                 >
                               </p>
                             </div>
                           </span>
+
                           <span
                             class="slider_content_text_2 animated fadeInUp delay-2s"
                           ></span>
@@ -501,9 +512,7 @@
                 </div>
                 <div
                   class="swiper-slide item item2"
-                  style="
-                    background-image: url('./images/d6a3c3390da1136a9885f523763149fc.png');
-                  "
+                  style="background-image: url('./assets/a101.png')"
                 >
                   <div class="slider_content_wrap">
                     <div class="bh_wrap slider_content">
@@ -514,11 +523,11 @@
                           >
                             <div class="s_text bh_color_white">
                               <h3 class="lg:fs-36 fs-28 ff_sif">
-                                도심에서 <b>‘숲’</b>을 만나는 <br />
-                                더 특별하고 건강한 실버타운
+                                필리핀에서 맞이하는 <br />
+                                따스한 실버타운
                               </h3>
                               <h2 class="lg:fs-80 fs-38 ff_sif">
-                                더힐 실버타운
+                                코리안 노블레스 실버타운
                               </h2>
                             </div>
                           </span>
@@ -573,83 +582,7 @@
               });
             </script>
           </div>
-          <section id="section1" class="section section1 clearfix">
-            <div class="bh_wrap">
-              <div class="xe-widget-wrapper" style="">
-                <div style="*zoom: 1; padding: 0px 0px 0px 0px !important">
-                  <div class="bh bh_page_widget_wrap">
-                    <div class="bh bh_page_widget_inner">
-                      <div class="sec1">
-                        <div class="bh_wrap">
-                          <div class="bh_row">
-                            <div class="col-lg-12 col-12">
-                              <div class="txt_box">
-                                <span
-                                  class="ff_sif fs-14 animate-in"
-                                  data-anim-delay="0"
-                                  data-anim-type="fade-in-left"
-                                  >Greeting</span
-                                >
-                                <h2
-                                  class="ff_sif lg:fs-48 fs-36 bh_color_main animate-in"
-                                  data-anim-delay="300"
-                                  data-anim-type="fade-in-left"
-                                >
-                                  행복한 노후, <br />
-                                  나를 위한 건강한 삶
-                                </h2>
-                                <p
-                                  class="fs-18 animate-in"
-                                  data-anim-delay="600"
-                                  data-anim-type="fade-in-left"
-                                >
-                                  더힐 실버타운은 요양원이 아닌 노인생활
-                                  시설로서, <br />
-                                  자식을 키우고, 사회에 이바지하고, 각자의
-                                  위치에서 열심히 일하신, <br />
-                                  <b class="bh_color_main"
-                                    >우리의 부모님들을 위한 자연 친화적 도심형
-                                    실버타운</b
-                                  >입니다.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="col-12">
-                              <div class="bh_row">
-                                <div class="col-lg-6">
-                                  <div class="img_box">
-                                    <img
-                                      src="./resources/sec1_img1.png"
-                                      alt="sec1_img1"
-                                      class="w-100 animate-in"
-                                      data-anim-delay="1200"
-                                      data-anim-type="fade-in-up"
-                                    />
-                                  </div>
-                                </div>
-                                <div class="col-lg-6">
-                                  <div class="img_box">
-                                    <img
-                                      src="./resources/sec1_img2.png"
-                                      alt="sec1_img2"
-                                      class="w-100 animate-in"
-                                      data-anim-delay="1600"
-                                      data-anim-type="fade-in-right"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="bh_row"></div>
-            </div>
-          </section>
+
           <section id="section2" class="section section2 clearfix">
             <div class="bh_wrap">
               <div class="xe-widget-wrapper" style="">
@@ -659,9 +592,9 @@
                       <div class="sec2">
                         <div class="bh_wrap">
                           <div class="main_title">
-                            <span class="ff_sif fs-14">Service</span>
-                            <h2 class="ff_sif lg:fs-48 fs-36">
-                              더힐 실버타운 서비스
+                            <!-- <span class="ff_sif fs-14">Service</span> -->
+                            <h2 class="ff_sif" style="font-size: 28px">
+                              코리안 노블레스 실버타운 소개
                             </h2>
                           </div>
                           <div class="bh_row">
@@ -671,20 +604,20 @@
                               data-anim-type="fade-in-up"
                             >
                               <div class="inner">
-                                <img src="./resources/sec2_img1.png" alt="" />
+                                <img src="./assets/a102.png" alt="" />
                                 <div
                                   class="title ff_sif bh_color_white fw-b ta-c fs-24"
                                 >
-                                  메디컬 서비스
+                                  프로그램 소개
                                 </div>
                                 <div class="slide_info ta-c">
                                   <h2 class="fs-24 bh_color_main ff_sif">
-                                    메디컬 서비스
+                                    프로그램 소개
                                   </h2>
                                   <span class="line ds-ib"></span>
                                   <p class="fs-16">
-                                    더힐 실버타운은 입주분들을 위한 맞춤식
-                                    의료서비스를 제공합니다.
+                                    입주분들을 위한 다양한 프로그램이
+                                    준비되어있습니다.
                                   </p>
                                   <a
                                     href="/service_medical"
@@ -700,20 +633,20 @@
                               data-anim-type="fade-in-up"
                             >
                               <div class="inner">
-                                <img src="./resources/sec2_img2.png" alt="" />
+                                <img src="./assets/a25.png" alt="" />
                                 <div
                                   class="title ff_sif bh_color_white fw-b ta-c fs-24"
                                 >
-                                  호텔 서비스
+                                  시설 소개
                                 </div>
                                 <div class="slide_info ta-c">
                                   <h2 class="fs-24 bh_color_main ff_sif">
-                                    호텔 서비스
+                                    시설 소개
                                   </h2>
                                   <span class="line ds-ib"></span>
                                   <p class="fs-16">
-                                    자연경관을 품은 다양한 시설과 호텔식
-                                    서비스로 삶의 품격과 즐거움을 선사합니다.
+                                    야외 수영장부터 고품격 시설로 여러분을
+                                    초대합니다.
                                   </p>
                                   <a
                                     href="/service_hotel"
@@ -729,20 +662,20 @@
                               data-anim-type="fade-in-up"
                             >
                               <div class="inner">
-                                <img src="./resources/sec2_img3.png" alt="" />
+                                <img src="./assets/a103.png" alt="" />
                                 <div
                                   class="title ff_sif bh_color_white fw-b ta-c fs-24"
                                 >
-                                  웰니스 서비스
+                                  위치 소개
                                 </div>
                                 <div class="slide_info ta-c">
                                   <h2 class="fs-24 bh_color_main ff_sif">
-                                    웰니스 서비스
+                                    위치 소개
                                   </h2>
                                   <span class="line ds-ib"></span>
                                   <p class="fs-16">
-                                    풍요로운 여가 생활과 심신의 치유를 위해
-                                    최선을 다하고 있습니다.
+                                    필리핀 공항과 가깝고 안전지대에 있는 필리핀
+                                    클락 "코리아 실버타운"
                                   </p>
                                   <a
                                     href="/service_wellness"
@@ -777,7 +710,77 @@
               <div class="bh_row"></div>
             </div>
           </section>
-          <section id="section4" class="section section4 clearfix">
+          <!-- <section id="section1" class="section section1 clearfix">
+            <div class="bh_wrap">
+              <div class="xe-widget-wrapper" style="">
+                <div style="*zoom: 1; padding: 0px 0px 0px 0px !important">
+                  <div class="bh bh_page_widget_wrap">
+                    <div class="bh bh_page_widget_inner">
+                      <div class="sec1">
+                        <div class="bh_wrap">
+                          <div class="bh_row">
+                            <div class="col-lg-6 col-12">
+                              <div class="txt_box">
+                                <span
+                                  class="ff_sif fs-14 animate-in"
+                                  data-anim-delay="0"
+                                  data-anim-type="fade-in-left"
+                                  >Greeting</span
+                                >
+                                <h2
+                                  class="ff_sif lg:fs-48 fs-36 bh_color_main animate-in"
+                                  data-anim-delay="300"
+                                  data-anim-type="fade-in-left"
+                                >
+                                  행복한 노후, <br />
+                                  나를 위한 건강한 삶
+                                </h2>
+                                <p
+                                  class="fs-18 animate-in"
+                                  data-anim-delay="600"
+                                  data-anim-type="fade-in-left"
+                                >
+                                  더힐 실버타운은 요양원이 아닌 노인생활
+                                  시설로서, <br />
+                                  자식을 키우고, 사회에 이바지하고, 각자의
+                                  위치에서 열심히 일하신, <br />
+                                  <b class="bh_color_main"
+                                    >우리의 부모님들을 위한 자연 친화적 도심형
+                                    실버타운</b
+                                  >입니다.
+                                </p>
+                                <img
+                                  src="./resources/sec1_img1.png"
+                                  alt="sec1_img1"
+                                  class="w-100 animate-in"
+                                  data-anim-delay="1200"
+                                  data-anim-type="fade-in-up"
+                                />
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                              <div class="img_box">
+                                <img
+                                  src="./resources/sec1_img2.png"
+                                  alt="sec1_img2"
+                                  class="w-100 animate-in"
+                                  data-anim-delay="1600"
+                                  data-anim-type="fade-in-right"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bh_row"></div>
+            </div>
+          </section> -->
+          <!-- ==== -->
+          <section id="pc-banner" style="background-color: #f1f3f4">
             <div class="bh_wrap">
               <div class="xe-widget-wrapper" style="">
                 <div style="*zoom: 1; padding: 0px 0px 0px 0px !important">
@@ -787,19 +790,31 @@
                         <div class="bh_wrap">
                           <div class="bh_row no-gutters jc-b ai-c">
                             <div class="col-lg-auto col-12">
-                              <h2 class="lg:fs-32 fs-24 lg:ta-l ta-c ff_sif">
-                                <b>"나"</b>를 재발견하고 가치있는 <br />
-                                노후를 찾는 행복 파트너, <b>더힐 실버타운</b>
-                              </h2>
+                              <div
+                                style="
+                                  display: flex;
+                                  align-items: center;
+                                  justify-content: space-between;
+                                  width: 80vw;
+                                "
+                              >
+                                <h2 class="lg:fs-32 fs-24 lg:ta-l ta-c ff_sif">
+                                  은퇴생활을 풍요롭게<br />
+                                  <b>『필리핀 코리아 실버타운』</b>
+                                </h2>
+                                <p style="font-size: 20px">
+                                  문의전화 : 010-8546-3186
+                                </p>
+                              </div>
                             </div>
                             <div
                               class="col-lg-auto col-12 animate-in"
                               data-anim-delay="0"
                               data-anim-type="fade-in-right"
                             >
-                              <a href="/contact" class="ff_sif fs-18"
+                              <!-- <a href="/contact" class="ff_sif fs-18"
                                 >문의하기</a
-                              >
+                              > -->
                             </div>
                           </div>
                         </div>
@@ -811,7 +826,8 @@
               <div class="bh_row"></div>
             </div>
           </section>
-          <section id="section5" class="section section5 clearfix">
+          <!-- === -->
+          <!-- <section id="section5" class="section section5 clearfix">
             <div class="bh_wrap">
               <div class="xe-widget-wrapper" style="">
                 <div style="*zoom: 1; padding: 0px 0px 0px 0px !important">
@@ -1010,21 +1026,7 @@
               </div>
               <div class="bh_row"></div>
             </div>
-          </section>
-        </div>
-        <div class="content_wrap">
-          <div class="bh_wrap clearfix">
-            <div class="content pd-0 clearfix" id="content">
-              <div class="content_inner clearfix">
-                <div
-                  class="rhymix_content xe_content xe-widget-wrapper"
-                  style="width: 100%; float: left"
-                >
-                  <div style="padding: 0px 0px 0px 0px !important"></div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </section> -->
         </div>
       </div>
       <footer class="bh dark_no">
@@ -1032,20 +1034,22 @@
           <div class="bh_wrap">
             <div class="bh_row ai-c">
               <div class="footer_logo ds-n lg:ds-b">
-                <img
-                  src="./images/c7c7f9b80a34a65d875b393919c2d2eb.png"
-                  alt="footer_logo"
-                />
+                <img src="./assets/test.png" alt="footer_logo" />
               </div>
               <div class="copyright col">
                 <div class="f_info">
                   <p>
-                    상호명 : 더힐 실버타운  대표 : 임양순  전화번호 :
-                    031-282-5601  메일 : blabla@naver.com <br />
-                    주소 : ​경기도 용인시 기흥구 석성로 521번길
-                    14-21  사업자등록번호 : 792-99-01572
+                    상호명 : 코리안 노블레스 실버타운   대표 : 정종주   전화번호
+                    : 010-8546-3186
+                    <!--   메일 : blabla@naver.com  -->
+                    <br />
+                    주소 : H4 hwarang village purak5 edsan porac angles city
+                    <!-- 사업자등록번호 : 792-99-01572 -->
                   </p>
-                  <span>Copyrightⓒ 더힐 실버타운. All Rights Reserved.</span>
+                  <span
+                    >Copyrightⓒ 코리안 노블레스 실버타운. All Rights
+                    Reserved.</span
+                  >
                 </div>
               </div>
             </div>
